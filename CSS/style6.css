@@ -1,0 +1,17 @@
+section{
+    background-color: #f5eedc;
+}
+section h2{
+  font-family: initial;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+  padding: 5vw;
+  color: #427662;
+   text-shadow: #214235 4px 3px 6px;
+}
+section img{
+    justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
+}
