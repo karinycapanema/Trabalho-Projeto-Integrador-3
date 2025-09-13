@@ -1,4 +1,4 @@
-section{
+body{
     background-color: #f5eedc;
 }
 section h2{
@@ -7,11 +7,35 @@ section h2{
   font-style: normal;
   font-size: 5rem;
   text-align: center;
-  padding: 5vw;
+  padding: 3vw;
   color: #427662;
    text-shadow: #214235 4px 3px 6px;
 }
+section div{
+    text-align: center;
+}
 section img{
-    justify-content: center; /* Centraliza horizontalmente */
-  align-items: center;
+    width: 40vw;
+    height: 25vw;
+}
+section h3{
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #427662;
+}
+section a{
+    background-color: #427662;
+    color: #f5eedc;
+    font-size: 1.0rem;
+    border-radius: 9px;
+    border: none;
+    padding: 9px 17px 9px 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+section p{
+    text-align: center;
+    padding: 17px;
 }
