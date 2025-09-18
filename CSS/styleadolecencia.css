@@ -1,0 +1,83 @@
+body{
+    background-color: #d6b07d;
+}
+div.centro{
+    background-color: #f5eedc;
+    margin: 40px 40px 0 40px;
+    border-radius: 40px 40px 0 0;
+    padding: 30px;
+}
+div.img{
+    background-color: #f5eedc;
+    margin: 0 40px 40px 40px;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+}
+div.paragrafo{
+    background-color: #f5eedc;
+    margin: 0 40px 0 40px;
+    text-align: center;
+    padding: 30px;
+}
+img{
+    width: 45vw;
+    height: 25vw;
+    padding: 50px;
+}
+header h1{
+    font-size: 4.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: #9b6240;
+    padding: 20px;
+    font-weight: bold;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+header a{
+    text-decoration: none;
+    color: #9b6240;
+    font-size: 1.4rem;
+}
+div.paragrafo p{
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+    line-height: 40px;
+    
+}
+div.img p{
+     font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 40px;
+}
+div.video{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+section div.video p{
+    font-size: 2rem;
+    line-height: 60px;
+    padding: 40px;
+    font-weight: bold;
+    color:#000000;
+}
+div.tag{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+div.texto p.ultimo{
+font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+    padding: 3vw 7vw 3vw 7vw;
+    line-height: 40px;
+}
