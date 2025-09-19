@@ -106,7 +106,11 @@ footer p{
     justify-content: center;
     margin: 1vw 0 0 0; 
 }
-
+div.um img{
+    width: 80px;
+    height: 90px;
+}
 footer p img{
-    width: 5vw;
+    width: 80px;
+    height: 90px;
 }
