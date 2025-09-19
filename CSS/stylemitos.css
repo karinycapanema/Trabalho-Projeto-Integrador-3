@@ -1,0 +1,31 @@
+
+
+
+footer{
+    background-color: #e69e85;
+}
+
+div.um img{
+width: 4vw;
+margin: 5px 0 0 0;
+}
+
+div.um{
+    display: flex;
+    justify-content: center;
+}
+
+div.dois ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    margin: 1vw 0 0 0; 
+}
+
+footer p img{
+    width: 5vw;
+}

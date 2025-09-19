@@ -1,0 +1,66 @@
+body{
+    background-color: #78bca1;
+}
+
+div.total{
+    background-color: #edfff8;
+    margin: 0px 40px 40px 40px;
+    border-radius:20px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+h1{
+    font-size: 4.7rem;
+    text-align: center;
+    color: #427662;
+    font-weight: bold;
+    padding: 20px;
+}
+header ul{
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    padding: 30px;
+}
+header a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #427662;
+}
+
+
+
+ol li{
+    color: #427662;
+}
+
+
+footer{
+    background-color: #78bca1;
+}
+
+div.um img{
+width: 4vw;
+margin: 5px 0 0 0;
+}
+
+div.um{
+    display: flex;
+    justify-content: center;
+}
+
+div.dois ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    margin: 1vw 0 0 0; 
+}
+
+footer p img{
+    width: 5vw;
+}
