@@ -3,13 +3,14 @@ body{
 }
 header{
     background-color: #edfff8;
-    margin: 5vw 5vw 0 5vw;
-    border-radius: 20px 20px 0 0;
+    margin: 3vw 5vw;
+    border-radius: 20px 20px;
 }
 header h1{
     font-size: 4.5rem;
     font-weight: bold;
     color: #427662;
+    text-shadow: #8a9490 4px 3px 6px;
     text-align: center;
     padding: 20px;
 }
@@ -17,7 +18,7 @@ header ul{
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    padding: 20px;
+    padding: 60px 40px;
 }
 header a{
     text-decoration: none;
@@ -25,67 +26,59 @@ header a{
     font-size: 1.4rem;
     font-weight: bold;
 }
+
+/*beneficios*/
+
 section.primeira{
     background-color: #edfff8;
-    margin: 0 5vw 5vw 5vw;
-    border-radius: 0 0 20px 20px;
-}
-section.segunda{
-    background-color: #edfff8;
-    border-radius: 20px;
-    margin: 5vw;
-}
-section.primeira li{
-    font-weight: bold;
-    font-size: 1.4rem;
+    margin: 3vw 5vw;
+    border-radius: 20px 20px;
 }
 section.primeira h2{
-    font-size: 2.7rem;
+    font-size: 3.5rem;
     font-weight: bold;
+    color: #427662;
+    text-shadow: #8a9490 4px 3px 6px;
     text-align: center;
     padding: 20px;
+}
+section.primeira h3{
+    font-size: 2.5rem;
+    font-weight: bold;
     color: #427662;
+    text-shadow: #8a9490 4px 3px 6px;
+    padding: 30px 20px 0 20px;
 }
-section.primeiro div.um{
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
+section.primeira p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px 20px 30px 20px;
 }
-section.primeira div.um img{
-width: 480px;
-height: 490px;
-padding: 30px 30px 30px 0;
-margin: 20px;
+section.primeira div.um{
+    display: block;
+    width: 50%;
 }
-section.primeira div.um ol li{
-line-height: 1.5vw;
-padding: 30px;
-margin: 20px;
-}
+
 footer{
-    background-color: #78bca1;
+    background-color: #effffe;
 }
 div.um img{
 width: 4vw;
 margin: 5px 0 0 0;
 }
-
 div.um{
     display: flex;
     justify-content: center;
 }
-
 div.dois ul{
     display: flex;
     justify-content: space-around;
 }
-
 footer p{
     display: flex;
     justify-content: center;
     margin: 1vw 0 0 0; 
 }
-
 footer p img{
     width: 5vw;
 }
