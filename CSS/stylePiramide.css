@@ -1,12 +1,14 @@
-body{
+body {
     background-color: #f5eedc;
 }
-header{
+
+header {
     background-color: #e69e85;
     margin: 3vw 5vw;
     border-radius: 20px 20px;
 }
-header h1{
+
+header h1 {
     font-size: 5.5rem;
     font-weight: bold;
     color: #f5eedc;
@@ -14,13 +16,15 @@ header h1{
     text-align: center;
     padding: 20px;
 }
-header ul{
+
+header ul {
     display: flex;
     gap: 20px;
     justify-content: space-between;
     padding: 60px 40px;
 }
-header a{
+
+header a {
     text-decoration: none;
     color: #f5eedc;
     font-size: 1.4rem;
@@ -28,49 +32,124 @@ header a{
 }
 
 
-section.texto{
+section.texto {
     background-color: #e69e85;
-    margin: 3vw 5vw;
-    border-radius: 20px ;
-}
-.texto p{
-font-size: 1.5rem;
-font-weight: bold;
-padding: 3vw 3vw 0 3vw;
-color: #f5eedc;
+    margin: 3vw 5vw 0 5vw;
+    border-radius: 20px 20px 0 0;
 }
 
+.texto p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 3vw 3vw 0 3vw;
+    color: #f5eedc;
+}
+
+.texImg {
+    display: flex;
+    background-color: #e69e85;
+    margin: 0 5vw;
+}
+
+.texDireita h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f5eedc;
+    text-shadow: #a04729 4px 3px 6px;
+    padding: 0vw 3vw 0 3vw;
+}
+
+.texDireita{
+
+}
+
+.texDireita p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 3vw 3vw 0 3vw;
+    color: #f5eedc;
+    display: block;
+    width: 70%;
+}
+
+
+.texImg img{
+    width: 400px;
+    padding: 0vw 5vw 2vw 5vw ;
+}
+
+.conteudo, a{
+    background-color: #e69e85;
+    margin: 0 5vw;
+}
+
+.conteudo h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f5eedc;
+    text-shadow: #a04729 4px 3px 6px;
+    padding: 1vw 3vw 0 3vw;
+}
+
+.conteudo p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1vw 3vw 0 3vw;
+    line-height: 30px;
+    color: #f5eedc;
+    display: block;
+    width: 70%;
+}
+
+.conteudo ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 1.0rem;
+    padding: 1vw 3vw 0 3vw;
+    font-weight: bold;
+    color: #f5eedc;
+}
+
+.conteudo a{
+    font-weight: bold;
+    text-decoration: none;
+    color:  #e69e85;
+    text-shadow: #a04729 1px 1px 1px;
+    font-size: 1.57em;
+    background-color: #f5eedc;;
+    padding: 10px 90px;
+}
 
 
 
 
 /*footer*/
 
-footer{
+footer {
     background-color: #e69e85;
 }
 
-div.um img{
-width: 4vw;
-margin: 5px 0 0 0;
+div.um img {
+    width: 4vw;
+    margin: 5px 0 0 0;
 }
 
-div.um{
+div.um {
     display: flex;
     justify-content: center;
 }
 
-div.dois ul{
+div.dois ul {
     display: flex;
     justify-content: space-around;
 }
 
-footer p{
+footer p {
     display: flex;
     justify-content: center;
-    margin: 1vw 0 0 0; 
+    margin: 1vw 0 0 0;
 }
 
-footer p img{
+footer p img {
     width: 5vw;
 }
