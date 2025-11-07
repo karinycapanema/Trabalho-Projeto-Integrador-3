@@ -17,14 +17,14 @@ header h1 {
     padding: 20px;
 }
 
-header ul {
+header ul{
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    padding: 60px 40px;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 60px 50px;
 }
 
-header a {
+header a{
     text-decoration: none;
     color: #f5eedc;
     font-size: 1.4rem;
@@ -59,9 +59,6 @@ section.texto {
     padding: 0vw 3vw 0 3vw;
 }
 
-.texDireita{
-
-}
 
 .texDireita p {
     font-size: 1.5rem;
@@ -76,9 +73,12 @@ section.texto {
     padding: 0vw 5vw 2vw 5vw ;
 }
 
-.conteudo, a{
+/*conteudo*/
+
+.conteudo{
     background-color: #e69e85;
-    margin: 0 5vw;
+    margin: 0vw 5vw;
+    text-align: center;
 }
 
 .conteudo h2{
@@ -97,6 +97,7 @@ section.texto {
     color: #f5eedc;
     display: block;
     width: 70%;
+    text-align: left;
 }
 
 .conteudo ul li{
@@ -106,15 +107,16 @@ section.texto {
     padding: 1vw 3vw 0 3vw;
     font-weight: bold;
     color: #f5eedc;
+    text-align: left;
 }
 
-.conteudo a{
+.conteudo a.refPiramide{
     font-weight: bold;
     text-decoration: none;
-    color:  #e69e85;
+    color: #e69e85;
     text-shadow: #a04729 1px 1px 1px;
     font-size: 1.57em;
-    background-color: #f5eedc;;
+    background-color: #f5eedc;
     padding: 10px 90px;
 }
 
