@@ -1,14 +1,14 @@
-body{
+body {
     background-color: #a0ced9;
 }
 
-header{
+header {
     background-color: #effffe;
     margin: 40px 40px 0 40px;
     border-radius: 20px 20px 0 0;
 }
 
-section.primeira{
+.primeira {
     background-color: #effffe;
     margin: 0px 40px 40px 40px;
     border-radius: 0px 0 20px 20px;
@@ -16,80 +16,100 @@ section.primeira{
     gap: 20px;
 }
 
-header h1{
+.primeira ul {
+    display: flex;
+}
+
+header h1 {
     font-size: 4.7rem;
     text-align: center;
     color: #2e6393;
     font-weight: bold;
     padding: 20px;
+    text-shadow: #2e6393 4px 3px 6px;
 }
-header ul{
+
+header ul {
     display: flex;
-    gap: 4vw;
-    justify-content: center;
-    padding: 30px;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 60px 50px;
 }
-header a{
+
+header a {
     font-size: 1.4rem;
     text-decoration: none;
     color: #2e6393;
+    font-weight: bold;
 }
 
-section p.um{
+section p {
     font-size: 1.7rem;
-    line-height: 50px;
-    padding: 20px 20px 15px 20px;
+    line-height: 40px;
+    padding: 1vw 3vw;
     font-weight: bold;
     color: #2e6393;
-    margin: 6vw;
+    margin: 1vw;
 }
 
-section p.dois{
+section p.dois {
     font-size: 1.7rem;
-    line-height: 50px;
-    padding: 20px 20px 15px 20px;
+    line-height: 40px;
+    padding: 1vw 3vw;
     font-weight: bold;
     color: #effffe;
-    margin: 6vw;
+    margin: 1vw;
 }
 
-section img{
+.segunda h6 {
+    text-shadow: #2e6393 4px 3px 6px;
+    color: #effffe;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+
+section img {
     width: 35vw;
     height: auto;
+    text-align: center;
 }
 
-video{
-    display: flex;
-    justify-content: center;
+.video iframe{
+    margin: 4vw 33vw;
 }
 
-footer{
+/*footer*/
+
+
+footer {
     background-color: #effffe;
 }
 
-div.um img{
-width: 4vw;
-margin: 5px 0 0 0;
+div.um img {
+    width: 4vw;
+    margin: 5px 0 0 0;
 }
 
-div.um{
+div.um {
     display: flex;
     justify-content: center;
 }
 
-div.dois ul{
+div.dois ul {
     display: flex;
     justify-content: space-around;
 }
 
-footer p{
+footer p {
     display: flex;
     justify-content: center;
-    margin: 1vw 0 0 0; 
+    margin: 1vw 0 0 0;
     color: #2e6393;
     font-weight: bold;
 }
 
-footer p img{
+footer p img {
     width: 5vw;
 }
