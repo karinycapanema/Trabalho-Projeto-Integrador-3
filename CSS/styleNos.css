@@ -1,5 +1,62 @@
+body{
+    background-color: #a0ced9;
+}
 
+header {
+    background-color: #effffe;
+    margin: 3vw 5vw;
+    border-radius: 20px 20px;
+}
 
+header h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #2e6393;
+    text-shadow: #223a4e 4px 3px 6px;
+    text-align: center;
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 60px 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: #2e6393;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.texto{
+    background-color: #effffe;
+    margin: 3vw 5vw;
+    border-radius: 20px 20px;
+}
+
+.texto p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 3vw 3vw;
+    color: #2e6393;
+    line-height: 2vw;
+}
+
+.imagens{
+    background-color: #effffe;
+    margin: 3vw 5vw;
+    border-radius: 20px 20px;
+}
+.imagens img{
+    width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+/*footer*/
 
 footer{
     background-color: #effffe;
