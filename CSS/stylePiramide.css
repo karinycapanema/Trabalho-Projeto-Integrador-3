@@ -77,8 +77,9 @@ section.texto {
 
 .conteudo{
     background-color: #e69e85;
-    margin: 0vw 5vw;
+    margin: 0vw 5vw 0vw 5vw;
     text-align: center;
+    border-radius: 0 0 20px 20px;
 }
 
 .conteudo h2{
@@ -110,22 +111,45 @@ section.texto {
     text-align: left;
 }
 
-.conteudo a.refPiramide{
+.conteudo button.refPiramide{
     font-weight: bold;
-    text-decoration: none;
-    color: #e69e85;
     text-shadow: #a04729 1px 1px 1px;
     font-size: 1.57em;
     background-color: #f5eedc;
     padding: 10px 90px;
+    border: none;
+    margin: 2vw;
+}
+.conteudo a{
+    text-decoration: none;
+    color: #e69e85;
 }
 
+/*piramide*/
 
+.piramide{
+    background-color: #e69e85;
+    margin: 4vw 5vw 4vw 5vw;
+    text-align: center;
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.piramide ul li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1vw 3vw 1vw 3vw;
+    line-height: 30px;
+    color: #f5eedc;
+    display: block;
+    width: 70%;
+    text-align: left;
+}
 
 /*footer*/
 
-footer {
+footer{
     background-color: #e69e85;
 }
 

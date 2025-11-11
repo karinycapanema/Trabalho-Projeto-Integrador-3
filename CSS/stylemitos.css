@@ -1,31 +1,100 @@
-
-
-
-footer{
-    background-color: #e69e85;
+footer {
+    background-color: #f5eedc;
 }
 
-div.um img{
-width: 4vw;
-margin: 5px 0 0 0;
+div.um img {
+    width: 4vw;
+    margin: 5px 0 0 0;
 }
 
-div.um{
+div.um {
     display: flex;
     justify-content: center;
 }
 
-div.dois ul{
+div.dois ul {
     display: flex;
     justify-content: space-around;
 }
 
-footer p{
+footer p {
     display: flex;
     justify-content: center;
-    margin: 1vw 0 0 0; 
+    margin: 1vw 0 0 0;
 }
 
-footer p img{
+footer p img {
     width: 5vw;
+}
+
+body{
+    background-color: #d6b07d;
+}
+
+div.primeira {
+    background-color: #e69e85;
+    margin: 40px 40px 0 40px;
+    border-radius: 20px 20px 0 0;
+    background: #f5eedc;
+}
+
+header h1 {
+    font-size: 4.7rem;
+    text-align: center;
+    color: #9b6240;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header ul {
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    padding: 30px;
+}
+
+header a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #9b6240;
+}
+
+section div.titulo {
+    color: #9b6240;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section div.tudo {
+    justify-content: space-between;
+    display: flex;
+    background-color: #f5eedc;
+    margin: 0 40px 0 40px;
+    padding: 30px;
+}
+
+section div.descubra {
+    font-size: 3vw;
+    text-align: center;
+    color: #9b6240;
+    background: #f5eedc;
+    margin: 0 40px 0 40px;
+}
+
+section div.agua {
+    background: #f5eedc;
+    margin: 0 40px 0 40px;
+    text-align: center;
+    font-weight: bold;
+}
+section div.agua h5{
+    color: #9b6240;
+}
+section div.manga{
+    background: #f5eedc;
+    margin: 0 40px 0 40px;
+}
+section div.manga ul{
+    display: flex;
+    justify-content: space-between;
 }
