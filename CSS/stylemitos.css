@@ -27,7 +27,7 @@ footer p img {
     width: 5vw;
 }
 
-body{
+body {
     background-color: #d6b07d;
 }
 
@@ -39,7 +39,7 @@ div.primeira {
 }
 
 header h1 {
-    font-size: 4.7rem;
+    font-size: 5.5rem;
     text-align: center;
     color: #9b6240;
     font-weight: bold;
@@ -61,8 +61,9 @@ header a {
 
 section div.titulo {
     color: #9b6240;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    margin:  0 0 0 3rem;
 }
 
 section div.tudo {
@@ -74,7 +75,7 @@ section div.tudo {
 }
 
 section div.descubra {
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
     color: #9b6240;
     background: #f5eedc;
@@ -86,15 +87,80 @@ section div.agua {
     margin: 0 40px 0 40px;
     text-align: center;
     font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1.3rem;
 }
-section div.agua h5{
+
+section div.agua h5 {
     color: #9b6240;
 }
-section div.manga{
+
+section div.manga {
     background: #f5eedc;
     margin: 0 40px 0 40px;
 }
-section div.manga ul{
+
+section div.manga ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+section div.manga ul li {
+    margin: 0 5rem 0 0;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+section div.manga ul li h5 {
+    color: #9b6240;
+
+}
+section div.comer {
+    background: #f5eedc;
+    margin: 0 40px 0 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0 1.3rem;
+}
+
+section div.comer h5 {
+    color: #9b6240;
+}
+section div.casca {
+    background: #f5eedc;
+    margin: 0 40px 0 40px;
+}
+
+section div.casca ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section div.casca ul li {
+    margin:0 5rem 0 0;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+section div.casca ul li h5 {
+    color: #9b6240;
+
+}
+section div.cenoura {
+    background: #f5eedc;
+    margin: 0 40px 40px 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 4rem;
+    border-radius:0 0 20px 20px;
+}
+
+section div.cenoura h5 {
+    color: #9b6240;
 }
