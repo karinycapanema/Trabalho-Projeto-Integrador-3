@@ -44,12 +44,12 @@ header h1 {
     color: #9b6240;
     font-weight: bold;
     padding: 20px;
+    text-shadow: #a07e6a 4px 3px 6px;
 }
 
 header ul {
     display: flex;
-    gap: 4vw;
-    justify-content: center;
+    justify-content: space-around;
     padding: 30px;
 }
 
@@ -57,6 +57,7 @@ header a {
     font-size: 1.4rem;
     text-decoration: none;
     color: #9b6240;
+    font-weight: bold;
 }
 
 section div.titulo {

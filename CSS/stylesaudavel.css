@@ -1,11 +1,11 @@
-div.primeira{
+.primeira{
     background-color: #edd084;
     margin: 40px 40px 0 40px;
     border-radius: 20px 20px 0 0;
 }
 div.segundo{
     background-color: #edd084;
-    margin: 0px 40px 40px 40px;
+    margin: 0px 40px 0px 40px;
     border-radius: 0px 0 20px 20px;
     display: flex;
     gap: 20px;
@@ -19,26 +19,38 @@ header h1{
     color: #ca3241;
     font-weight: bold;
     padding: 20px;
+    text-shadow: #864a50 4px 3px 6px;
 }
 header ul{
     display: flex;
-    gap: 4vw;
-    justify-content: center;
+    justify-content: space-around;
     padding: 30px;
 }
 header a{
     font-size: 1.4rem;
     text-decoration: none;
     color: #ca3241;
+    font-weight: bold;
 }
-section p.mesmo{
-    font-size: 1.5rem;
+.segundo p{
+    font-size: 1.9rem;
     line-height: 30px;
     padding: 20px 20px 15px 20px;
     font-weight: bold;
     color: #443610;
-    margin: 6vw;
+    margin: 2vw;
+    width: 50vw;
 }
+.terceiro p{
+    font-size: 1.9rem;
+    line-height: 30px;
+    padding: 20px 20px 15px 20px;
+    font-weight: bold;
+    color: #443610;
+    margin: 2vw;
+    width: 50vw;
+}
+
 section img{
     width: 35vw;
     height: 25vw;
@@ -46,15 +58,17 @@ section img{
 }
 div.terceiro{
     display: flex;
+
 }
-section video{
-    padding: 7vw;
+section iframe{
+    margin: 2vw;
     border-radius: 20px;
 }
-section p.ultimo{
-font-size: 2rem;
+.ultimo p{
+font-size: 1.9rem;
 font-weight: bold;
-line-height: 50px;
+line-height: 30px;
+color: #443610;
 padding: 0 4vw 3vw 4vw;
 }
 
