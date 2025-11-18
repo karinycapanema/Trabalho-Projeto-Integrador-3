@@ -11,7 +11,7 @@ header {
 header h1 {
     font-size: 5.5rem;
     font-weight: bold;
-    color: #d6b07d;
+    color: #9b6240;
     text-shadow: #a0896e 4px 3px 6px;
     text-align: center;
     padding: 20px;
@@ -26,7 +26,7 @@ header ul{
 
 header a{
     text-decoration: none;
-    color: #d6b07d;
+    color: #9b6240;
     font-size: 1.4rem;
     font-weight: bold;
 }
@@ -42,7 +42,7 @@ div.titulo{
 div.titulo h1{
     font-size: 4.0rem;
     font-weight: bold;
-    color: #d6b07d;
+    color: #9b6240;
     text-shadow: #a0896e 4px 3px 6px;
     text-align: left;
     padding: 8vw 1vw 1vw 0;
@@ -50,7 +50,7 @@ div.titulo h1{
 .introducao h3{
     font-size: 3.0rem;
     font-weight: bold;
-    color: #d6b07d;
+    color: #9b6240;
     text-align: center;
     padding-bottom: 4vw;
 }
@@ -64,29 +64,30 @@ div.titulo h1{
 .lado h1{
     font-size: 2rem;
     font-weight: bold;
-    color: #d6b07d;
+    color: #9b6240;
     text-shadow: #ca985f 2px 1px 3px;
-    padding: 4vw 3vw 0 3vw;
+    padding: 4vw 3vw 0vw 3vw;
 }
 .lado p{
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 2vw 3vw 0 2vw;
     color: black;
-    justify-content: space-around;
     display: block;
-    width: 50%;
+    width: 70%;
+    padding: 2vw 3vw 2vw 3vw;
 }
 .lado{
     display: flex;
     justify-content: space-around;
     margin: 0 4vw;
 }
-
+.lado img{
+    text-align: center;
+}
 .meio h1{
     font-size: 2rem;
     font-weight: bold;
-    color: #d6b07d;
+    color: #9b6240;
     text-shadow: #ca985f 2px 1px 3px;
     padding: 0vw 3vw 0 3vw;
     text-align: center;
