@@ -48,7 +48,7 @@ ul.direita{
    align-items: flex-end;
 }
 
-section h2{
+section h1{
     display: flex;
     justify-content: center;
     margin: 15vw;

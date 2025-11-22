@@ -61,29 +61,31 @@ div.img p{
 }
 div.video{
     display: flex;
-    padding: 30px 40px;
+    padding: 1vw 3vw 1vw 3vw;
     justify-content: space-around;
 }
 section div.video p{
     font-size: 2rem;
-    line-height: 60px;
+    line-height: 40px;
     padding: 40px;
     font-weight: bold;
     color:#000000;
     width: 90%;
 }
-button{
-  background-color: #f5eedc;
+.btn-video a{
+    display: block;
+  text-decoration: none;
+  color: #9b6240;
+  text-shadow: #a37d67 4px 3px 6px;
+    background-color: #f5eedc;
   padding: 10vw 8vw;
-  margin: 9vw 0;
+  margin: 3vw 0;
   border: none;
   font-size: 1.8rem;
   border-radius: 20px;
-}
-button a{
-text-decoration: none;
-  color: #9b6240;
-  text-shadow: #a37d67 4px 3px 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 div.texto p.ultimo{
     font-size: 2rem;
