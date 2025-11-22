@@ -37,23 +37,34 @@ section ul li:hover img {
 }
 
 ul.esquerda{
-    display: flex;
-   flex-direction: column;
+    display: flex;   
+    flex-direction: column;
    align-items: flex-start;
+   margin-top: 2vw;
 }
 
 ul.direita{
     display: flex;
-   flex-direction: column;
-   align-items: flex-end;
+    flex-direction: column;
+   align-items: flex-start;
+   margin-top: 2vw;
+}
+.auto{
+    display: flex;
+    flex-direction: column;
+}
+ul.cima{
+display: flex;
+    justify-content: space-around;-
 }
 
 section h1{
-    display: flex;
+    width: 50%;
     justify-content: center;
-    margin: 15vw;
+    margin: 7vw;
     color: #427662;
     font-size: 5rem;
     font-weight: bold;
+    margin-left: 15vw;
 }
 
