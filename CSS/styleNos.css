@@ -36,11 +36,24 @@ header a{
     margin: 3vw 5vw;
     border-radius: 20px 20px;
 }
+.textoBotao{
+    background-color: #effffe;
+    margin: 3vw 5vw;
+    border-radius: 20px 20px;
+    padding-bottom: 1vw;
+}
 
 .texto p{
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 3vw 3vw;
+    padding: 3vw 3vw ;
+    color: #2e6393;
+    line-height: 2vw;
+}
+.textoBotao p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 3vw 3vw 0 3vw;
     color: #2e6393;
     line-height: 2vw;
 }
@@ -74,6 +87,18 @@ header a{
 }
 .duasFotos p{
     padding: 2vw;
+}
+.atas a{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #effffe;
+    background-color: #2e6393;
+    padding: 1vw 3vw;
+    margin: 1vw 20vw;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
 /*footer*/
@@ -126,6 +151,12 @@ footer p img{
         line-height: 17px;
         font-size: 1.1rem;
     }
+
+    .textoBotao p{
+        line-height: 17px;
+        font-size: 1.1rem;
+    }
+
     .tresFotos ul, .duasFotos ul{
         display: block;
         margin: 3vw;
@@ -146,4 +177,8 @@ footer p img{
         width: 10vw;
     }
 
+    .atas a{
+        font-size: 0.8rem;
+        margin: 2vw 17vw;
+    }
 }
