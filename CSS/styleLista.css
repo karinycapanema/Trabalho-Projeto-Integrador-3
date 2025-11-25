@@ -256,9 +256,20 @@ footer p img{
     .imagemum img{
         width: 360px;
     }
+    .quinto{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 9vw;
+    }
+    section.primeira div.dois{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .quinto img{
         width: 300px;
-        padding-top: 40px;
+    }
+    .segunda p{
+        padding: 0 20px 0px 20px;
     }
     .quatro img{
         width: 300px;
@@ -266,6 +277,9 @@ footer p img{
     .videoBem iframe{
         width: 330px;
         height: 200px;
+    }
+    .refMaleficios{
+        
     }
     footer p{
         font-size: 0.9rem;
