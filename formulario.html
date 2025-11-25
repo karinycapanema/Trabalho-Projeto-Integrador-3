@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Formulário Interativo</title>
+
+<style>
+body {
+font-family: Arial, sans-serif;
+background: #f6f6f6;
+padding: 20px;
+}
+
+.container {
+max-width: 600px;
+margin: auto;
+background: white;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+margin-bottom: 15px;
+}
+
+.opcao {
+display: block;
+background: #e8e8e8;
+padding: 12px;
+margin: 8px 0;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.opcao:hover {
+background: #dcdcdc;
+}
+
+#mensagem {
+margin-top: 20px;
+font-size: 1.1em;
+color: #333;
+font-weight: bold;
+display: none;
+}
+
+#final {
+margin-top: 30px;
+padding: 20px;
+background: #e9ffe5;
+border-left: 5px solid #4caf50;
+display: none;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h2 id="pergunta"></h2>
+<div id="opcoes"></div>
+<div id="mensagem"></div>
+<div id="final"></div>
+
+</div>
+
+<script>
+const perguntas = [
+{
+texto: "Qual seu objetivo?",
+opcoes: [
+{ nome: "Emagrecer", msg: "Foque em pequenos ajustes diários; constância vale mais do que mudanças radicais!" },
+{ nome: "Ganhar Massa", msg: "Priorize proteína e uma rotina de treinos bem definida para ver resultados sólidos!" },
+{ nome: "Manter o peso", msg: "Equilíbrio é tudo, observe seus hábitos atuais e mantenha o que funciona!" },
+{ nome: "Não possuo e/ou outros…", msg: "" }
+]
+},
+{
+texto: "Você tem alguma restrição alimentar?",
+opcoes: [
+{ nome: "Intolerância à lactose", msg: "Prefira versões sem lactose para evitar desconfortos sem abrir mão de sabor!" },
+{ nome: "Intolerância à Glúten", msg: "Existem muitas opções naturais sem glúten, explore raízes, frutas e proteínas!" },
+{ nome: "Não possuo e/ou outros…", msg: "" }
+]
+},
+{
+texto: "Tem alguma condição de saúde?",
+opcoes: [
+{ nome: "Diabetes", msg: "Prefira alimentos com baixo índice glicêmico para manter a glicose estável!" },
+{ nome: "Hipertensão", msg: "Reduzir o sódio e aumentar alimentos naturais faz grande diferença!" },
+{ nome: "Colesterol Alto", msg: "Inclua fibras e gorduras boas para ajudar a regular os níveis!" },
+{ nome: "Não possuo e/ou outros…", msg: "" }
+]
+}
+];
+
+let indice = 0;
+let respostas = [];
+
+function mostrarPergunta() {
+if (indice >= perguntas.length) {
+mostrarFinal();
+return;
+}
+
+const p = perguntas[indice];
+document.getElementById("pergunta").innerText = p.texto;
+
+const opcoesDiv = document.getElementById("opcoes");
+opcoesDiv.innerHTML = "";
+
+p.opcoes.forEach(op => {
+let btn = document.createElement("div");
+btn.className = "opcao";
+btn.innerText = op.nome;
+
+btn.onclick = () => {
+respostas.push(op.nome);
+
+if (op.msg) {
+mostrarMensagem(op.msg);
+} else {
+indice++;
+mostrarPergunta();
+}
+};
+
+opcoesDiv.appendChild(btn);
+});
+}
+
+function mostrarMensagem(texto) {
+const msgDiv = document.getElementById("mensagem");
+msgDiv.innerText = texto;
+msgDiv.style.display = "block";
+
+setTimeout(() => {
+msgDiv.style.display = "none";
+indice++;
+mostrarPergunta();
+}, 2000);
+}
+
+function mostrarFinal() {
+document.getElementById("pergunta").style.display = "none";
+document.getElementById("opcoes").style.display = "none";
+
+const final = document.getElementById("final");
+final.style.display = "block";
+
+final.innerHTML = `
+<h3>Resumo das respostas:</h3>
+<p><strong>Objetivo:</strong> ${respostas[0]}</p>
+<p><strong>Restrição alimentar:</strong> ${respostas[1]}</p>
+<p><strong>Condição de saúde:</strong> ${respostas[2]}</p>
+`;
+}
+
+mostrarPergunta();
+</script>
+
+</body>
+</html>

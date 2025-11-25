@@ -10,7 +10,7 @@ div.segundo{
     display: flex;
     gap: 20px;
 }
-body{
+body.alimentacaoSaudavel{
     background-color: #f5eedc;
 }
 header h1{
@@ -69,6 +69,25 @@ line-height: 30px;
 color: #443610;
 padding: 0 4vw 3vw 4vw;
 }
+section{
+    margin-bottom: 5vw;
+}
+.formulario a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #ca3241;
+    font-weight: bold;
+    text-align: center;
+    margin: 2vw;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 20vw;
+}
+
+/*footer*/ 
 
 footer{
     background-color: #edd084;
